@@ -1,9 +1,9 @@
 header {
   height: 731px;
-  background-image: linear-gradient(rgba(27, 25, 25, 0.65), rgba(11, 11, 11, 0.65)), url("./images");
+  background-image: linear-gradient(rgba(27, 25, 25, 0.55), rgba(11, 11, 11, 0.55)), url("images/");
   background-size: cover;
   background-position: center;
-  padding: 3% 8%;
+  padding: 2% 8%;
 }
 
 nav {
@@ -17,7 +17,7 @@ nav ul {
 }
 nav ul li {
   display: inline-block;
-  margin: 10px 30px;
+  margin: 34px 30px;
   position: relative;
 }
 nav ul li a {
@@ -32,24 +32,37 @@ nav ul li a {
 }
 
 button {
-  height: 45px;
+  width: 186px;
+  height: 53px;
+  text-align: center;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  padding: 13px 23px;
-  margin: 15px 0 0 0;
+  padding: 17px 53px;
+  margin: 34px 20px 0 0;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 106.5%;
 }
 
 img {
-  width: 120px;
+  width: 140px;
 }
 
 h1 {
-  margin-top: 300px;
+  margin-top: 270px;
+  color: #FFFFFF;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 100%;
 }
 
 div {
-  width: 280px;
+  width: 410px;
   display: flex;
   justify-content: space-between;
 }
