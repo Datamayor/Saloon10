@@ -18,11 +18,13 @@ nav{
     ul{
         list-style: none;
         text-align: right;
+        margin-left: 240px;
         li{
 
             display: inline-block;
             margin: 10px 30px;
             position: relative;
+        
 
             a{
                 color: white;
@@ -44,6 +46,7 @@ line-height: 106.5%;
 flex-direction: row;
 align-items: flex-start;
 padding: 13px 23px;
+margin: 20px 20px 0 0;
  }
 
  img{
@@ -55,7 +58,7 @@ padding: 13px 23px;
  }
 
  div{
-    width: 240px;
+    width: 280px;
     display: flex;
     justify-content: space-between;
 
