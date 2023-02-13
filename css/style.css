@@ -1,68 +1,91 @@
+* {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+}
+
+.container {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
 header {
-  height: 731px;
-  background-image: linear-gradient(rgba(27, 25, 25, 0.55), rgba(11, 11, 11, 0.55)), url("images/Mask group.png");
+  background-image: linear-gradient(rgba(27, 25, 25, 0.55), rgba(11, 11, 11, 0.55)), url("../images/Mask group.png");
   background-size: cover;
   background-position: center;
-  padding: 2% 8%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 nav {
+  position: absolute;
+  width: 100%;
+  top: 0;
+}
+nav .container {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
-nav ul {
+nav .container .nav_content {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+nav .container ul {
   list-style: none;
-  text-align: right;
-  margin-left: 240px;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  margin: 0;
 }
-nav ul li {
-  display: inline-block;
-  margin: 34px 30px;
-  position: relative;
-}
-nav ul li a {
+nav .container ul li a {
   color: white;
   text-decoration: none;
-  text-transform: uppercase;
-  font-family: "Poppins";
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
-  line-height: 106.5%;
+  display: block;
 }
 
 button {
-  width: 186px;
-  height: 53px;
   text-align: center;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
+  background-color: #FBB034;
   padding: 17px 53px;
-  margin: 34px 20px 0 0;
-  font-family: "Poppins";
+  border: 0;
   font-style: normal;
   font-weight: 600;
-  font-size: 16px;
-  line-height: 106.5%;
+  border: 1px solid #FBB034;
+}
+button.outlined {
+  background-color: transparent;
+  color: #FBB034;
 }
 
-img {
+img.logo {
   width: 140px;
 }
 
 h1 {
-  margin-top: 270px;
   color: #FFFFFF;
-  font-family: "Poppins";
   font-style: normal;
   font-weight: 700;
   font-size: 52px;
   line-height: 100%;
 }
 
-div {
-  width: 410px;
+.header_content {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  gap: 1.5rem;
 }
