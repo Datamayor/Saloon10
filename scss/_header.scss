@@ -1,64 +1,20 @@
 header {
-    // height: 731px;
     background-image: linear-gradient(rgba(27, 25, 25, 0.55),
             rgba(11, 11, 11, 0.55)),
         url("../images/Mask\ group.png");
     background-size: cover;
     background-position: center;
-    // padding: ;
     min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-nav {
-    position: absolute;
-    width: 100%;
-    top: 0;
-    .container {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-
-        .nav_content {
-            display: flex;
-            align-items: center;
-            gap: 1.5rem;
-        }
-
-        ul {
-            list-style: none;
-            padding: 0;
-            display: flex;
-            align-items: center;
-            gap: 1.5rem;
-            margin: 0;
-
-            li {
-                a {
-                    color: white;
-                    text-decoration: none;
-                    font-style: normal;
-                    font-weight: 600;
-                    font-size: 16px;
-                    display: block;
-                }
-            }
-        }
-    }
+    
 }
 
 button {
-    // width: 186px;
-    // height: 53px;
     text-align: center;
     background-color: #FBB034;
-    // display: flex;
-    // flex-direction: row;
-    // align-items: flex-start;
     padding: 17px 53px;
-    // margin: 34px 20px 0 0;
     border: 0;
     font-style: normal;
     font-weight: 600;
@@ -78,7 +34,6 @@ img.logo {
 
 
 h1 {
-    // margin-top: 270px;
     color: #FFFFFF;
     font-style: normal;
     font-weight: 700;
@@ -87,8 +42,11 @@ h1 {
 }
 
 .header_content{
-    // padding: 270px 0;
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
+}
+
+@media only screen and (max-width:900px) {
+    
 }
