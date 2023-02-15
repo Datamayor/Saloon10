@@ -34,3 +34,15 @@ nav {
         }
     }
 }
+
+.navbar{
+    display: none;
+}
+@media only screen and (max-width:900px) {
+    .navbar{
+        display: block;
+    }
+    nav{
+        display: none;
+    }
+}

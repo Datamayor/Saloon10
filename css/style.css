@@ -90,6 +90,18 @@ nav .container ul li a {
   display: block;
 }
 
+.navbar {
+  display: none;
+}
+
+@media only screen and (max-width: 900px) {
+  .navbar {
+    display: block;
+  }
+  nav {
+    display: none;
+  }
+}
 .container1 {
   min-height: 70vh;
   background-image: linear-gradient(rgba(203, 196, 196, 0.1), rgba(243, 235, 235, 0.1)), url("../images/WE ARE OPEN 1.png");
