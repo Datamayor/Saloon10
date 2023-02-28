@@ -42,6 +42,7 @@
 
 .img4{
     margin-top: 30px;
+    margin-bottom: 20px;
 }
 p{
     font-family: 'Poppins';
@@ -50,7 +51,8 @@ font-weight: 400;
 font-size: 18px;
 line-height: 120%;
 width: 401px;
-height: 88px;
+height: 108px;
+padding: 20px 0;
 }
 
 .container4{
@@ -79,4 +81,16 @@ height: 88px;
     align-items: center;
     justify-content: center;
     text-align: center;
+}
+
+.vector{
+    width: 20px;
+    margin: 0;
+}
+.p{
+    margin: auto;
+    padding: 0;
+    line-height: 2;
+    height:50px;
+    width: 300px;
 }

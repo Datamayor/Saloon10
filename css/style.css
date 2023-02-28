@@ -135,6 +135,7 @@ nav .container ul li a {
 
 .img4 {
   margin-top: 30px;
+  margin-bottom: 20px;
 }
 
 p {
@@ -144,7 +145,8 @@ p {
   font-size: 18px;
   line-height: 120%;
   width: 401px;
-  height: 88px;
+  height: 108px;
+  padding: 20px 0;
 }
 
 .container4 {
@@ -169,4 +171,25 @@ p {
   align-items: center;
   justify-content: center;
   text-align: center;
+}
+
+.vector {
+  width: 20px;
+  margin: 0;
+}
+
+.p {
+  margin: auto;
+  padding: 0;
+  line-height: 2;
+  height: 50px;
+  width: 300px;
+}
+
+h2 {
+  color: #000000;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 100%;
 }
