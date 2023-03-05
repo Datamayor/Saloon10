@@ -321,6 +321,11 @@ header {
 
 header .header-nav {
   position: fixed;
+  z-index: 2000;
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -449,12 +454,14 @@ header .header-container-parent {
     position: fixed;
     top: 80px;
     left: -100%;
-    background-color: #24252A;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
     height: 100vh;
     width: 100%;
     display: block;
     text-align: center;
-    z-index: 99999999;
     transition: all 0.3s ease;
   }
 
@@ -740,7 +747,7 @@ header .header-container-parent {
   top: -2rem;
 }
 
-@media only screen and (min-width: 900px) { 
+@media only screen and (min-width: 900px) {
   .composition-photo-p1 {
     max-height: 300px;
     max-width: 200px;
@@ -759,7 +766,7 @@ header .header-container-parent {
   top: 2rem;
 }
 
-@media only screen and (min-width: 900px) { 
+@media only screen and (min-width: 900px) {
   .composition-photo-p2 {
     left: 40%;
     max-height: 300px;
@@ -780,7 +787,7 @@ header .header-container-parent {
   top: 10rem;
 }
 
-@media only screen and (min-width: 900px) { 
+@media only screen and (min-width: 900px) {
   .composition-photo-p3 {
     max-height: 300px;
     max-width: 200px;
@@ -821,7 +828,7 @@ header .header-container-parent {
 .heading-tertiary {
   font-size: 1.6rem;
   font-weight: 700;
-  text-transform: uppercase; 
+  text-transform: uppercase;
   margin-bottom: 1.5rem
 }
 
