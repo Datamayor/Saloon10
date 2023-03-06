@@ -516,9 +516,9 @@ header .header-container-parent {
 .booking-container {
   display: flex;
   width: 100%;
-  max-width: 1200px;
+  
   justify-content: center;
-  padding: 24px;
+  padding: 7% 15%;
 }
 
 @media only screen and (max-width: 1078px) {
