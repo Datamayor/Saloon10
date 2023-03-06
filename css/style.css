@@ -242,6 +242,7 @@ h5 {
   font-family: "Poppins", sans-serif;
   margin: 0;
   padding: 0;
+  transition: all 1s;
 }
 
 .nav-links li,
@@ -1180,6 +1181,9 @@ a.slide-btn {
   .footer-copyright {
     width: 100%;
     float: none;
+    display: flex;
+    padding-bottom: 0;
+    justify-content: center;
   }
 }
 
