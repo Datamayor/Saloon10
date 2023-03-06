@@ -14,7 +14,7 @@ $(document).ready(function () {
 
 $('.slider').each(function () {
   var $this = $(this);
-  var $group = $this.find('.slide_group');
+  var $group = $this.find('.slide-group');
   var $slides = $this.find('.slide');
   var bulletArray = [];
   var currentIndex = 0;
@@ -88,14 +88,14 @@ $('.slider').each(function () {
   });
 
   $.each($slides, function (index) {
-    var $button = $('<a class="slide_btn">&bull;</a>');
+    var $button = $('<a class="slide-btn">&bull;</a>');
 
     if (index === currentIndex) {
       $button.addClass('active');
     }
     $button.on('click', function () {
       move(index);
-    }).appendTo('.slide_buttons');
+    }).appendTo('.slide-buttons');
     bulletArray.push($button);
   });
 
