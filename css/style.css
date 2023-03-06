@@ -246,8 +246,7 @@ h5 {
 
 .nav-links li,
 .nav-links li a,
-.book-now-btn,
-.logo {
+.book-now-btn {
   font-weight: 500;
   font-size: 16px;
   color: whitesmoke;
@@ -309,6 +308,11 @@ h5 {
 
 #click {
   display: none;
+}
+
+.logo-img {
+  width: 100px;
+  height: auto;
 }
 
 header {
@@ -402,6 +406,7 @@ header .header-container-parent {
 
 .nav-links {
   list-style: none;
+  margin-bottom: 0 ;
 }
 
 .nav-links li {
@@ -437,11 +442,6 @@ header .header-container-parent {
   background-color: rgba(251, 176, 52, 0.8);
 }
 
-.logo {
-  font-size: 18px;
-  font-weight: 600;
-}
-
 .menu-btn {
   color: #FBB034;
   display: none;
@@ -466,6 +466,7 @@ header .header-container-parent {
   }
 
   .cta {
+    text-decoration: none;
     display: inline-flex;
     position: fixed;
     bottom: 80px;
@@ -526,7 +527,6 @@ header .header-container-parent {
   }
 }
 
-
 .booking-container-image {
   width: 50%;
 }
@@ -556,13 +556,24 @@ header .header-container-parent {
   }
 }
 
-@media only screen and (max-width: 650px) {
-  .booking-container {
-    padding: 0;
+@media only screen and (max-width: 900px) {
+  .booking-container-image {
+    width: 60%;
   }
+  
+  .booking-container-info {
+    width: 60%;
+  }
+}
 
+@media only screen and (max-width: 650px) {
+  .booking-container-image {
+    width: 80%;
+  }
+  
   .booking-container-info {
     padding: 16px;
+    width: 80%;
   }
 
   .booking-container-info h6 {
@@ -835,4 +846,89 @@ header .header-container-parent {
 .paragraph {
   font-size: 1rem;
   margin-bottom: 3rem;
+}
+
+/* About Section Ends  */
+
+
+/* Appointment Section Starts */
+
+.appointment {
+  display: flex;
+  justify-content: space-around;
+  padding: 5rem 0;
+  width: 100%;
+  background-image: linear-gradient(rgba(11, 10, 10, 0.65),
+      rgba(11, 11, 11, 0.65)),
+    url("../images/Mask group.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.appointment-text {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.appointment-text button {
+  width: fit-content;
+}
+
+.appointment-text h1 {
+  color: #FFFFFF;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 52px;
+  padding-bottom: 1rem;
+}
+
+.feature-box {
+  background-color: rgba(255, 255, 255, 0.8);
+  width: fit-content;
+  font-size: 1.1rem;
+  padding: 3.5rem 5rem;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s;
+}
+
+@media only screen and (max-width: 1000px) {
+  .appointment {
+    align-items: center;
+    row-gap: 20px;
+    justify-content: center;
+    flex-direction: column-reverse;
+  }
+
+  .appointment-text {
+    align-items: center;
+  }
+
+  .appointment-text h1 {
+    display: flex;
+    text-align: center;
+    font-weight: 500;
+    font-size: 42px;
+    padding-bottom: 0;
+  }
+
+  .feature-box {
+    padding: 2rem 4rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .appointment-text h1 {
+    font-size: 30px;
+  }
+}
+
+.feature-box:hover {
+  transform: translateY(-1.5rem) scale(1.03);
+}
+
+.feature-box img {
+  padding-bottom: 10px;
 }
