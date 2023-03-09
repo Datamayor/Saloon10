@@ -991,7 +991,6 @@ padding-bottom: 10px;
   max-width: 1440px;
   margin: 2rem auto 2rem;
   display: flex;
-padding: 2%;
   justify-content: center;
 }
 .container35 {
@@ -1014,6 +1013,7 @@ margin: 0 auto;
 }
 
 .container26 {
+  padding: 5%;
   margin-left: 5%;
 }
 .container28 {
