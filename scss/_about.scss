@@ -1,0 +1,129 @@
+.container1{
+    min-height: 70vh;
+    background-image: linear-gradient(
+        rgba(203, 196, 196, 0.1),
+        rgba(243, 235, 235, 0.1)
+      ),
+      url("../images/WE\ ARE\ OPEN\ 1.png");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 300px;
+    position: relative;
+}
+
+.img1{
+    position: absolute;
+    top: 4rem; 
+    left: 6rem;
+    width: 188px;
+    height: 282px;
+
+}
+
+.img2{
+    position: absolute;
+    top: 5rem;
+  left: 19rem;
+    width: 161px;
+    height: 118px;
+}
+
+.img3{
+    border: 9px solid white;
+    position: absolute;
+    top: 14rem;
+    left: 14rem;
+    width: 214px;
+    height: 292px;
+}
+
+.img4{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+p{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 120%;
+width: 401px;
+height: 108px;
+padding: 20px 0;
+}
+
+.container4{
+    min-height: 50vh;
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.55),
+        rgba(0, 0, 0, 0.55)
+      ),
+      url("../images/Mask\ group.png");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+}
+
+.container3{
+    justify-content: right;
+    width: 320px;
+    height: 303px;
+    background-color: white;
+}
+
+.container5{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.vector{
+    width: 20px;
+    margin: 0;
+}
+.p{
+    margin: auto;
+    padding: 0;
+    line-height: 2;
+    height:50px;
+    width: 300px;
+}
+
+.container6{
+    display: flex;
+    padding: 7% 10%;
+}
+
+.container7{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    width: 27rem;
+    border-bottom: 2px dotted black;
+}
+
+.container8{
+    background-color: #fbb034;
+   padding: 3rem;
+   width: 50%;
+}
+
+h3{
+    font-size: 40px;
+    font-weight: 600;
+    color: white;
+}
+
+.container9{
+    width: 700px;
+}
+
+.container10{
+    text-align: center;
+}
